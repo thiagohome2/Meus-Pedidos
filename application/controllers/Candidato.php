@@ -70,10 +70,11 @@ class Candidato extends CI_Controller {
                     "titulo" => $titulo,
                     "dados" => '' 
                 );
-        $this->load->view('layout/header', $data);
-        $this->load->view('layout/menu-top-lateral', $data);
-        $this->load->view('site/avaliacao_candidato', $data);
-        $this->load->view('layout/footer', $data);
+        if (!is_cli()){
+            $this->load->view('layout/header', $data);
+            $this->load->view('site/avaliacao_candidato', $data);
+            $this->load->view('layout/footer', $data);
+        }
         
     }
  
