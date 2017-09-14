@@ -16,13 +16,14 @@
      <!-- jquery-knob -->
     <script src="<?php echo base_url('assets/vendors/jquery-knob/dist/jquery.knob.min.js');?>"></script>
     
-    <!-- jquery-validation -->
-    <script src="<?php //echo base_url('assets/vendors/validation/dist/localization/messages_pt_BR.js');?>"></script>
     
     <!-- jquery-validation -->
     <script src="<?php echo base_url('assets/vendors/validation/dist/jquery.validate.js');?>"></script>
     
-    <!-- jquery-knob -->
+    <!-- jquery-validation -->
+    <script src="<?php echo base_url('assets/vendors/validation/dist/localization/messages_pt_BR.js');?>"></script>
+    
+    <!-- coustom -->
     <script src="<?php echo base_url('assets/js/custom.js');?>"></script>
   </body>
 </html>

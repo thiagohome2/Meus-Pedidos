@@ -30,3 +30,7 @@ body {
 .row div {
     text-align: center;
 }
+
+.error{
+    color: #FF0000;
+}
