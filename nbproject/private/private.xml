@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <coverage xmlns="http://www.netbeans.org/ns/code-coverage/1" enabled="true"/>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/xampp2/htdocs/meus_pedidos/assets/js/custom.js</file>
+            <file>file:/C:/xampp2/htdocs/meus_pedidos/application/tests/controllers/Candidato_test.php</file>
+            <file>file:/C:/xampp2/htdocs/meus_pedidos/application/views/layout/footer.php</file>
+            <file>file:/C:/xampp2/htdocs/meus_pedidos/assets/css/custom.css</file>
+            <file>file:/C:/xampp2/htdocs/meus_pedidos/application/views/site/avaliacao.php</file>
+            <file>file:/C:/xampp2/htdocs/meus_pedidos/application/views/errors/html/error_db.php</file>
+            <file>file:/C:/xampp2/htdocs/meus_pedidos/application/views/site/fim_avaliacao.php</file>
+            <file>file:/C:/xampp2/htdocs/meus_pedidos/assets/vendors/bootstrap/dist/css/bootstrap.css</file>
+            <file>file:/C:/xampp2/htdocs/meus_pedidos/application/controllers/Candidato.php</file>
+        </group>
+    </open-files>
+</project-private>

@@ -10,6 +10,5 @@ $(".dial").knob({
     'max':10
 });
 	 
-function fechar_modal(){
-        setTimeout(location.reload.bind(location), 500);
-}
+//Desaparecimento automatico de erros
+$(".alert").delay( 5000 ).slideUp( 400 );

@@ -10,17 +10,14 @@
     <title>Meus Pedidos</title>
     <!-- Bootstrap -->
     <link href="<?php echo base_url('assets/vendors/bootstrap/dist/css/bootstrap.min.css'); ?>" rel="stylesheet">
-
-    <!-- jQuery-Smart-Wizard -->
-    <link href="<?php echo base_url('assets/vendors/jQuery-Smart-Wizard/styles/smart_wizard_vertical.css'); ?>" rel="stylesheet">
-    
-    <!-- Customisação -->
+   
+    <!-- Steps -->
     <link href="<?php echo base_url('assets/vendors/jquery-steps-master/demo/css/main.css'); ?>" rel="stylesheet">
     
-    <!-- Customisação -->
+    <!-- Steps -->
     <link href="<?php echo base_url('assets/vendors/jquery-steps-master/demo/css/jquery.steps.css'); ?>" rel="stylesheet">
     
-    <!-- Customisação -->
+    <!-- Steps -->
     <link href="<?php echo base_url('assets/vendors/jquery-steps-master/demo/css/normalize.css'); ?>" rel="stylesheet">
     
     

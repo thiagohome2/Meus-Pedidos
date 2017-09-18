@@ -1,22 +1,48 @@
+@font-face {
+  font-family: 'icomoon-custom';
+  src: url(../fonts/icomoon-custom.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'clear_sans_lightregular';
+  src: url(../fonts/ClearSans-Light-webfont.woff);
+  font-weight:lighter;
+}
+
+@font-face {
+  font-family: 'clear_sansregular';
+  src: url(../fonts/ClearSans-Regular-webfont.woff);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'clear_sansbold';
+  src: url(../fonts/ClearSans-Bold-webfont.woff);
+  font-weight:bold;
+}
+
 
 html {
   position: relative;
   min-height: 100%;
 }
+
 body {
-  margin-bottom: 60px;
+    margin: 0px 0px 57px 0px;
+    padding: 0;
+    font-family: 'clear_sansregular';
+    color: #648094;
 }
 .footer {
-  position: absolute;
+ position: absolute;
+  margin-top: 18px;
   bottom: 0;
   width: 100%;
   height: 60px;
+  text-align: center;
   background-color: #f5f5f5;
 }
-
-
-/* Customisação pagina CSS
--------------------------------------------------- */
 
 .container {
   width: auto;
@@ -30,7 +56,70 @@ body {
 .row div {
     text-align: center;
 }
-
 .error{
-    color: #FF0000;
+    line-height: 30px;
+    color: #F75E5E;
 }
+
+
+[class^="ico-"], [class*=" ico-"] {
+    font-family: 'icomoon-custom' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ico-meus-pedidos {
+    font-size: 30px;
+}
+
+.titulo.centralizado {
+    text-align: center;
+}
+
+.titulo {
+    color: #0192f6;
+    font-size: 36px;
+    font-family: 'clear_sans_lightregular';
+    width: 100%;
+    text-align: left;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.form-group input {
+    font-family: 'clear_sansregular';
+    border: 1px solid #b4c2d7;
+    border-radius: 5px;
+    clear: both;
+    letter-spacing: 0.75px;
+    padding: 24px 20px ;
+    width: 100%;
+}
+
+.form-cadastro button {
+    color: #fff;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 20px;
+    background-color: #0192f6;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    clear: both;
+    transition: all .5s;
+    border: none;
+    display: inline-block;
+    margin: 5px 0 0 0;
+    cursor: pointer;
+}
+
+.fim-form{
+    text-align: center;
+}
+

@@ -1,6 +1,7 @@
    <footer class="footer">
       <div class="container">
-        <p class="text-muted">Processo Seletivo Meuus Pedidos</p>
+        <span class="ico-meus-pedidos"></span>  
+        <p class="text-muted">Teste para Desenvolvedor Web por Thiago de Oliveira</p>
       </div>
     </footer>
 
